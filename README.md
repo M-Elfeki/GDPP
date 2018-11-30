@@ -10,21 +10,23 @@ Upload the CelebA experiments using Progressive-Growing GANs.
 
 <p align="center">
   <img src ="https://github.com/M-Elfeki/GDPP/blob/master/Figures/Fig_1.png"/>
+  
+  
+  <img src ="https://github.com/M-Elfeki/GDPP/blob/master/Figures/Fig_2.png"/>
+  
+  
+  <img src ="https://github.com/M-Elfeki/GDPP/blob/master/Figures/Fig_3.png"/>
+  
+  
+  <img src ="https://github.com/M-Elfeki/GDPP/blob/master/Figures/Fig_4.png"/>
+  
+  
+  <img src ="https://github.com/M-Elfeki/GDPP/blob/master/Figures/Fig_5.png"/>
+  
+  
+  <img src ="https://github.com/M-Elfeki/GDPP/blob/master/Figures/Fig_6.png"/>
+  
+  
+  <img src ="https://github.com/M-Elfeki/GDPP/blob/master/Figures/Fig_7.png"/>
+  
 </p>
-
-![alt text](https://github.com/M-Elfeki/GDPP/blob/master/Figures/Fig_2.png)
-
-
-![alt text](https://github.com/M-Elfeki/GDPP/blob/master/Figures/Fig_3.png)
-
-
-![alt text](https://github.com/M-Elfeki/GDPP/blob/master/Figures/Fig_4.png)
-
-
-![alt text](https://github.com/M-Elfeki/GDPP/blob/master/Figures/Fig_5.png)
-
-
-![alt text](https://github.com/M-Elfeki/GDPP/blob/master/Figures/Fig_6.png)
-
-
-![alt text](https://github.com/M-Elfeki/GDPP/blob/master/Figures/Fig_7.png)
