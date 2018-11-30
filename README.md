@@ -8,7 +8,7 @@ Upload the CelebA experiments using Progressive-Growing GANs.
 
 # Figures
 
-![alt text](https://github.com/M-Elfeki/GDPP/blob/master/Figures/Fig_1.png)
+<div style="text-align:center"><img src ="https://github.com/M-Elfeki/GDPP/blob/master/Figures/Fig_1.png" /></div>
 
 
 ![alt text](https://github.com/M-Elfeki/GDPP/blob/master/Figures/Fig_2.png)
