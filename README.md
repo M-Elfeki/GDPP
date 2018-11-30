@@ -3,6 +3,7 @@ Improved Generator loss to reduce mode-collapse and improve the generated sample
 
 By: 
 Mohamed Elfeki (University of Central Florida): elfeki@cs.ucf.edu
+
 Camille Couprie, Morgane Riviere & Mohamed Elhoseiny (Facebook Artificial Intelligence Research): {coupriec,mriviere,elhoseiny}@fb.com
 
 
