@@ -1,6 +1,10 @@
 # GDPP
 Improved Generator loss to reduce mode-collapse and improve the generated samples quality. We use Determinantal Point Process (DPP) to model the diversity within true data and fake data. Then we complement the generator loss with our DPP-inspired loss to diversify the generated data, however keeping them realistic.
 
+By: 
+Mohamed Elfeki (University of Central Florida): elfeki@cs.ucf.edu
+Camille Couprie, Morgane Riviere & Mohamed Elhoseiny (Facebook Artificial Intelligence Research): {coupriec,mriviere,elhoseiny}@fb.com
+
 
 # To-DO List
 Upload the CelebA experiments using Progressive-Growing GANs.
