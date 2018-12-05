@@ -33,7 +33,7 @@ Upload the CelebA experiments using Progressive-Growing GANs.
   <img src ="https://github.com/M-Elfeki/GDPP/blob/master/Figures/Fig_5.png"/>
   
   
-  <img src ="https://github.com/M-Elfeki/GDPP/blob/master/Figures/Fig_6_modified.png"/>
+  <img src ="https://github.com/M-Elfeki/GDPP/blob/master/Figures/Fig_6_2.png"/>
   
   
   <img src ="https://github.com/M-Elfeki/GDPP/blob/master/Figures/Fig_7.png"/>
