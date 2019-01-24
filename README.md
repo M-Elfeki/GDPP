@@ -3,6 +3,10 @@ Improved Generator loss to reduce mode-collapse and improve the generated sample
 
 GDPP: https://arxiv.org/abs/1812.00068
 
+By: 
+Mohamed Elfeki (University of Central Florida): elfeki@cs.ucf.edu
+Camille Couprie, Morgane Riviere & Mohamed Elhoseiny (Facebook Artificial Intelligence Research): {coupriec,mriviere,elhoseiny}@fb.com
+
 # Prerequisites
 * Python 2.7, Tensorflow-gpu==1.0.0, Pytorch, SciPy, NumPy, Matplotlib, tqdm
 * Cuda-8.0
@@ -22,13 +26,6 @@ The following files represent experiments on synthetic data: synthetic 2D Ring a
 
 
 The experiments in the Progressive Growing GANs can be done by embedding the GDPP loss within the official implementation in: https://github.com/tkarras/progressive_growing_of_gans
-
-
-By: 
-
-Mohamed Elfeki (University of Central Florida): elfeki@cs.ucf.edu
-
-Camille Couprie, Morgane Riviere & Mohamed Elhoseiny (Facebook Artificial Intelligence Research): {coupriec,mriviere,elhoseiny}@fb.com
 
 
 # To-DO List
