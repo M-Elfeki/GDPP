@@ -18,7 +18,7 @@ from tflib.deconv2d import Deconv2D
 from tflib.conv2d import Conv2D
 
 from scipy.stats import entropy
-from tensorflow.examples.tutorials.mnist import input_data
+# from tensorflow.examples.tutorials.mnist import input_data
 
 
 class DPPGAN(object):
