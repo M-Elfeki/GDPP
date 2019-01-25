@@ -238,7 +238,7 @@ class MNIST(object):
         with tf.Session() as sess:
             sess.run(tf.global_variables_initializer())
             saver = tf.train.Saver()
-            for i in tqdm(xrange(20000)):
+            for i in xrange(20000):
                 batch = mnist.train.next_batch(50)
                 if i % 100 == 0:
                     train_accuracy = accuracy.eval(
