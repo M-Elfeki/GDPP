@@ -5,6 +5,7 @@ GDPP: https://arxiv.org/abs/1812.00068
 
 By: 
 Mohamed Elfeki (University of Central Florida): elfeki@cs.ucf.edu
+
 Camille Couprie, Morgane Riviere & Mohamed Elhoseiny (Facebook Artificial Intelligence Research): {coupriec,mriviere,elhoseiny}@fb.com
 
 # Prerequisites
