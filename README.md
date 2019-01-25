@@ -4,9 +4,10 @@ Improved Generator loss to reduce mode-collapse and improve the generated sample
 GDPP: https://arxiv.org/abs/1812.00068
 
 By: 
-Mohamed Elfeki (University of Central Florida): elfeki@cs.ucf.edu
+Mohamed Elfeki (*University of Central Florida*): elfeki@cs.ucf.edu
 
-Camille Couprie, Morgane Riviere & Mohamed Elhoseiny (Facebook Artificial Intelligence Research): {coupriec,mriviere,elhoseiny}@fb.com
+Camille Couprie, Morgane Riviere & Mohamed Elhoseiny 
+(*Facebook Artificial Intelligence Research*): {coupriec,mriviere,elhoseiny}@fb.com
 
 # Prerequisites
 * Python 2.7, Tensorflow-gpu==1.0.0, Pytorch, SciPy, NumPy, Matplotlib, tqdm
