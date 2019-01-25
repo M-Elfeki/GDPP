@@ -18,6 +18,7 @@ from tflib.deconv2d import Deconv2D
 from tflib.conv2d import Conv2D
 
 from scipy.stats import entropy
+from tensorflow.examples.tutorials.mnist import input_data
 
 
 class DPPGAN(object):
@@ -352,7 +353,6 @@ if __name__ == '__main__':
     nnet = MNIST(main_dir)
 
     # # To train the CNN-classifier for evaluating the model- One time
-    # from tensorflow.examples.tutorials.mnist import input_data
     # mnist = input_data.read_data_sets(data_dir, one_hot=True)
     # nnet.build_model(mnist)
 
