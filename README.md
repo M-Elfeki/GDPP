@@ -29,11 +29,8 @@ The following files represent experiments on synthetic data: synthetic 2D Ring a
 * python gdppgan_cifar.py
 
 
-The experiments in the Progressive Growing GANs can be done by embedding the GDPP loss within the official implementation in: https://github.com/tkarras/progressive_growing_of_gans
+GDPP with Progressive Growing GANs (CelebA experiments) can be found here: https://github.com/facebookresearch/pytorch_GAN_zoo
 
-
-# To-DO List
-Upload the CelebA experiments using Progressive-Growing GANs.
 
 
 # Figures
