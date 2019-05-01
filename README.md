@@ -39,9 +39,15 @@ Scatter plots of the true data (green dots) and generated data (blue dots) from 
 
 
 ### GDPP is generic
-Our loss is generic to any generative model. We performed an experiment where we incorporated GDPP loss with both VAE(left) and GAN(right) on Stacked MNIST data.
+Our loss is generic to any generative model. We performed an experiment where we incorporated GDPP loss with both VAE(left) and GAN(right) on Stacked MNIST data. GDPP-GAN converges faster than GDPP-VAE and generates sharper samples.
 
 ![alt-text-1](https://github.com/M-Elfeki/GDPP/blob/master/Figures/vae_dpp_mnist.png "Generative Adversarial Network with GDPP") ![alt-text-2](https://github.com/M-Elfeki/GDPP/blob/master/Figures/stacked_mnist_qualitative.png "Variational AutoEncoder with GDPP")
+
+
+### GDPP is scalable
+Our loss can be applied to different architectures and data of various complexity. We embedded our loss with GAN trained on CIFAR-10(left) and CelebA(rigth).
+
+![alt-text-1](https://github.com/M-Elfeki/GDPP/blob/master/Figures/cifar_qualitative.png "GDPP-GAN applied on CIFAR-10") ![alt-text-2](https://github.com/M-Elfeki/GDPP/blob/master/Figures/celeba_GDPPtrue_s5_iter_200000_avg.png "GDPP-GAN applied on CelebA")
 
   
 <p align="center">
