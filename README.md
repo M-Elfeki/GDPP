@@ -59,7 +59,7 @@ Our loss can be applied to different architectures and data of various complexit
 Since the weights of the generator are being initialized using a random number generator N (0, 1), the result of a generative model may be affected by poor initializations. In Figure 2 we show qualitative examples on 2D Grid data, where we use high standard deviation for the random number generator (i.e., σ > 100) as an example of poor initializations. Evidently, GDPP-GAN attains the true-data structure manifold even with poor initializations. On the other extreme, WGAN-GP tends to map the input noise to a disperse distribution covering all modes but with low-quality generations.
 
 <p align="center">
-  <img src ="https://github.com/M-Elfeki/GDPP/blob/master/Figures/poor_initialization_modified.jpg"/>
+  <img src ="https://github.com/M-Elfeki/GDPP/blob/master/Figures/poor_initialization_modified.png"/>
 </p>
 
 
