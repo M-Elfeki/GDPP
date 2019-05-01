@@ -45,9 +45,13 @@ Our loss is generic to any generative model. We performed an experiment where we
 
 
 ### GDPP is scalable
-Our loss can be applied to different architectures and data of various complexity. We embedded our loss with GAN trained on CIFAR-10(left) and CelebA(rigth).
+Our loss can be applied to different architectures and data of various complexity. We embedded our loss with GAN trained on CIFAR-10(top) and CelebA(bottom).
 
-![alt-text-1](https://github.com/M-Elfeki/GDPP/blob/master/Figures/cifar_qualitative.jpg "GDPP-GAN applied on CIFAR-10") ![alt-text-2](https://github.com/M-Elfeki/GDPP/blob/master/Figures/celeba_GDPPtrue_s5_iter_200000_avg.jpg "GDPP-GAN applied on CelebA")
+
+<p align="center">
+  <img src ="https://github.com/M-Elfeki/GDPP/blob/master/Figures/cifar_qualitative.jpg"/>
+  <img src ="https://github.com/M-Elfeki/GDPP/blob/master/Figures/celeba_GDPPtrue_s5_iter_200000_avg.jpg"/>
+</p>
 
   
 <p align="center">
