@@ -15,11 +15,11 @@ Camille Couprie, Morgane Riviere & Mohamed Elhoseiny
 # Figures
 
 <p align="center">
-  
   <img src ="https://github.com/M-Elfeki/GDPP/blob/master/Figures/GDPP_Teaser.png"/>
-  Inspired by DPP, we model a batch diversity using a kernel L. Our loss encourages generator G to synthesize a batch S_B of a diversity L_SB similar to the real data diversity L_DB , by matching their eigenvalues and eigenvectors. Generation loss aims at generating similar data points to the real, and diversity loss aims at matching the diversity manifold structures.
+</p>
+Inspired by DPP, we model a batch diversity using a kernel L. Our loss encourages generator G to synthesize a batch S_B of a diversity L_SB similar to the real data diversity L_DB , by matching their eigenvalues and eigenvectors. Generation loss aims at generating similar data points to the real, and diversity loss aims at matching the diversity manifold structures.
   
-  
+<p align="center">
   <img src ="https://github.com/M-Elfeki/GDPP/blob/master/Figures/Fig_2.png"/>
   
   
