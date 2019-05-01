@@ -41,9 +41,8 @@ Scatter plots of the true data (green dots) and generated data (blue dots) from 
 ### GDPP is generic
 Our loss is generic to any generative model. We performed an experiment where we incorporated GDPP loss with both VAE(left) and GAN(right) on Stacked MNIST data.
 
-<p align="center">
 ![alt-text-1](https://github.com/M-Elfeki/GDPP/blob/master/Figures/vae_dpp_mnist.png "Generative Adversarial Network with GDPP") ![alt-text-2](https://github.com/M-Elfeki/GDPP/blob/master/Figures/stacked_mnist_qualitative.png "Variational AutoEncoder with GDPP")
-</p>
+
   
 <p align="center">
   <img src ="https://github.com/M-Elfeki/GDPP/blob/master/Figures/Fig_3.png"/>
