@@ -30,6 +30,18 @@ Given a generator G and feature extraction function φ(·), the diversity kernel
 </p>
 
 
+### Synthetic Data Experiments
+Scatter plots of the true data (green dots) and generated data (blue dots) from different GAN methods trained on mixtures of 2D Gaussians arranged in a ring (top) or a grid (bottom).
+
+<p align="center">
+  <img src ="https://github.com/M-Elfeki/GDPP/blob/master/Figures/synthetic_qualitative.png"/>
+</p>
+
+
+### GDPP is generic
+Our loss is generic to any generative model. We performed an experiment where we incorporated GDPP loss with both VAE and GAN on Stacked MNIST data.
+
+![alt-text-1](https://github.com/M-Elfeki/GDPP/blob/master/Figures/stacked_mnist_qualitative.png "Generative Adversarial Network with GDPP") ![alt-text-2](https://github.com/M-Elfeki/GDPP/blob/master/Figures/vae_dpp_mnist.png "Variational AutoEncoder with GDPP")
   
 <p align="center">
   <img src ="https://github.com/M-Elfeki/GDPP/blob/master/Figures/Fig_3.png"/>
