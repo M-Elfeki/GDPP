@@ -54,30 +54,12 @@ Our loss can be applied to different architectures and data of various complexit
 </p>
 
 
-### GDPP is Data and Time-Efficient
+### GDPP is immune to poor initialization
 
-Data-Efficiency: examining the effect of training batch size B given the same number of training iterations. GDPP-GAN requires the least amount of training data to converge.
+Since the weights of the generator are being initialized using a random number generator N (0, 1), the result of a generative model may be affected by poor initializations. In Figure 2 we show qualitative examples on 2D Grid data, where we use high standard deviation for the random number generator (i.e., σ > 100) as an example of poor initializations. Evidently, GDPP-GAN attains the true-data structure manifold even with poor initializations. On the other extreme, WGAN-GP tends to map the input noise to a disperse distribution covering all modes but with low-quality generations.
 
-Time-Efficiency: monitoring convergence rate throughout the training given the same training data size. GDPP-GAN is the first to converge in both evaluation metrics.
-
-![alt-text-1](https://github.com/M-Elfeki/GDPP/blob/master/Figures/Batch_Size_Exp.png "Data-Efficiency") ![alt-text-2](https://github.com/M-Elfeki/GDPP/blob/master/Figures/Convergence-Time.png "Time-Efficiency")
-
-  
 <p align="center">
-  <img src ="https://github.com/M-Elfeki/GDPP/blob/master/Figures/Fig_3.png"/>
-  
-  
-  <img src ="https://github.com/M-Elfeki/GDPP/blob/master/Figures/Fig_4.png"/>
-  
-  
-  <img src ="https://github.com/M-Elfeki/GDPP/blob/master/Figures/Fig_5.png"/>
-  
-  
-  <img src ="https://github.com/M-Elfeki/GDPP/blob/master/Figures/Fig_6_2.png"/>
-  
-  
-  <img src ="https://github.com/M-Elfeki/GDPP/blob/master/Figures/Fig_7.png"/>
-  
+  <img src ="https://github.com/M-Elfeki/GDPP/blob/master/Figures/poor_initialization_modified.jpg"/>
 </p>
 
 
