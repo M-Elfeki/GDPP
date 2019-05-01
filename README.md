@@ -11,6 +11,36 @@ Mohamed Elfeki (*University of Central Florida*): elfeki@cs.ucf.edu
 Camille Couprie, Morgane Riviere & Mohamed Elhoseiny 
 (*Facebook Artificial Intelligence Research*): {coupriec,mriviere,elhoseiny}@fb.com
 
+
+# Figures
+
+<p align="center">
+  
+  <img src ="https://github.com/M-Elfeki/GDPP/blob/master/Figures/GDPP_Teaser.png"/>
+  Inspired by DPP, we model a batch diversity using a kernel L. Our loss encourages generator G to synthesize a batch S_B of a diversity L_SB similar to the real data diversity L_DB , by matching their eigenvalues and eigenvectors. Generation loss aims at generating similar data points to the real, and diversity loss aims at matching the diversity manifold structures.
+  
+  
+  <img src ="https://github.com/M-Elfeki/GDPP/blob/master/Figures/Fig_2.png"/>
+  
+  
+  <img src ="https://github.com/M-Elfeki/GDPP/blob/master/Figures/Fig_3.png"/>
+  
+  
+  <img src ="https://github.com/M-Elfeki/GDPP/blob/master/Figures/Fig_4.png"/>
+  
+  
+  <img src ="https://github.com/M-Elfeki/GDPP/blob/master/Figures/Fig_5.png"/>
+  
+  
+  <img src ="https://github.com/M-Elfeki/GDPP/blob/master/Figures/Fig_6_2.png"/>
+  
+  
+  <img src ="https://github.com/M-Elfeki/GDPP/blob/master/Figures/Fig_7.png"/>
+  
+</p>
+
+
+
 # Prerequisites
 * Python 2.7, Tensorflow-gpu==1.0.0, Pytorch, SciPy, NumPy, Matplotlib, tqdm
 * Cuda-8.0
@@ -32,28 +62,3 @@ The following files represent experiments on synthetic data: synthetic 2D Ring a
 GDPP with Progressive Growing GANs (CelebA experiments) can be found here: https://github.com/facebookresearch/pytorch_GAN_zoo
 
 
-
-# Figures
-
-<p align="center">
-  <img src ="https://github.com/M-Elfeki/GDPP/blob/master/Figures/Fig_1.png"/>
-  
-  
-  <img src ="https://github.com/M-Elfeki/GDPP/blob/master/Figures/Fig_2.png"/>
-  
-  
-  <img src ="https://github.com/M-Elfeki/GDPP/blob/master/Figures/Fig_3.png"/>
-  
-  
-  <img src ="https://github.com/M-Elfeki/GDPP/blob/master/Figures/Fig_4.png"/>
-  
-  
-  <img src ="https://github.com/M-Elfeki/GDPP/blob/master/Figures/Fig_5.png"/>
-  
-  
-  <img src ="https://github.com/M-Elfeki/GDPP/blob/master/Figures/Fig_6_2.png"/>
-  
-  
-  <img src ="https://github.com/M-Elfeki/GDPP/blob/master/Figures/Fig_7.png"/>
-  
-</p>
