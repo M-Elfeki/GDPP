@@ -53,6 +53,15 @@ Our loss can be applied to different architectures and data of various complexit
   <img src ="https://github.com/M-Elfeki/GDPP/blob/master/Figures/celeba_GDPPtrue_s5_iter_200000_avg.jpg"/>
 </p>
 
+
+### GDPP is Data and Time-Efficient
+
+Data-Efficiency: examining the effect of training batch size B given the same number of training iterations. GDPP-GAN requires the least amount of training data to converge.
+
+Time-Efficiency: monitoring convergence rate throughout the training given the same training data size. GDPP-GAN is the first to converge in both evaluation metrics.
+
+![alt-text-1](https://github.com/M-Elfeki/GDPP/blob/master/Figures/Batch_Size_Exp.png "Data-Efficiency") ![alt-text-2](https://github.com/M-Elfeki/GDPP/blob/master/Figures/Convergence-Time.png "Time-Efficiency")
+
   
 <p align="center">
   <img src ="https://github.com/M-Elfeki/GDPP/blob/master/Figures/Fig_3.png"/>
