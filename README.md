@@ -81,7 +81,8 @@ The following files represent experiments on synthetic data: synthetic 2D Ring a
 * python gdppgan_stackedMNIST.py
 * python gdppgan_cifar.py
 
-
 GDPP with Progressive Growing GANs (CelebA experiments) can be found here: https://github.com/facebookresearch/pytorch_GAN_zoo
 
-
+A pretrained model on CelebA with Progressive Growing GANs, Scale 6, iteration 96000, can be found here: https://drive.google.com/open?id=16VuRrrpXvmU-26FmcdMFn1WFBCh-LqLn
+Can be reproduced by downloading the code from: https://github.com/facebookresearch/pytorch_GAN_zoo
+and setting the GDPP weight to 100.0 to match the range of the generator loss.
