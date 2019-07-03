@@ -1,3 +1,10 @@
+
+<p align="center">
+  <img src ="https://github.com/M-Elfeki/GDPP/blob/master/Figures/synthetic_qualitative.png"/>
+</p>
+
+Scatter plots of the true data (green dots) and generated data (blue dots) from different GAN methods trained on mixtures of 2D Gaussians arranged in a ring (top) or a grid (bottom).
+
 # GDPP
 Improved Generator loss to reduce mode-collapse and improve the generated samples quality. We use Determinantal Point Process (DPP) kernel to model the diversity within true data and fake data. Then we complement the generator loss with our DPP-inspired loss to diversify the generated data, imitating the true data diversity.
 
@@ -27,14 +34,6 @@ Given a generator G and feature extraction function φ(·), the diversity kernel
   
 <p align="center">
   <img src ="https://github.com/M-Elfeki/GDPP/blob/master/Figures/GDPP_Approach.png"/>
-</p>
-
-
-### Synthetic Data Experiments
-Scatter plots of the true data (green dots) and generated data (blue dots) from different GAN methods trained on mixtures of 2D Gaussians arranged in a ring (top) or a grid (bottom).
-
-<p align="center">
-  <img src ="https://github.com/M-Elfeki/GDPP/blob/master/Figures/synthetic_qualitative.png"/>
 </p>
 
 
